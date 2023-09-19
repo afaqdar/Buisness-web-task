@@ -35,6 +35,9 @@ body{
     --bs-bg-opacity: none;
   
 }
+.navbar-nav{
+    margin-left: 120px;
+}
 .navbar img{
     height: 80px;
     width: 80px;
@@ -46,9 +49,6 @@ body{
     padding: 20px;
     border: 2px dotted red;
     color:purple;
-}
-.navbar-nav {
-    margin-left:100px;
 }
 .navbar-nav span{
     margin-top: 14px;
@@ -67,11 +67,13 @@ body{
 .navbar-nav a.navlink{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.navbar-navv{
-    margin-left: 300px;
+.navbar-nav a.right-icons{
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
 }
-.navbar-navv span{
-    margin: 8px;
+.navbar-nav a.right-icons span{
+    margin-left: 12px;
 }
 .carousel-item img{
     width: 50%;
@@ -106,9 +108,10 @@ body{
     font-weight: 900;
 }
 .image-sec .col-4{
-    margin-top: 110px;
+    margin-top: 50px;
     background-color: #fcf7df;
     height: 370px;
+    border-radius: 20px;
     width: 50%;
     padding: 50px;
 }
@@ -116,25 +119,314 @@ body{
     height: 220px;
 
 }
-@media screen and (min-width:992px) and (max-width:1260px) {
-    .navbar-navv{
-        margin-left: 0px;
-    }
-    .navbar-navv span{
-        margin: 8px;
-    }
+.items .col{
+    background-color: rgba(61, 121, 225, 0.2);
+    margin: 12px;
+    border: 1.7px dotted blue;
+}
+.items .col img{
+    margin-left: 50px;
+    width: 50%;
+    height: 180px;
+}
+.items .col h3{
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.study-img .row{
+    border: 2px dotted orange;
+}
+.study-img .col img.first{
+    width: 100%;
+    height: 450px;
+}
+.study-img .col img{
+    margin-right: 300px;
+    
+    display: inline;
+}
+.study-img .col h2 {
+    font-family: 'Grandstander', cursive;
+    color: pink;
+    font-weight: 800;
+
 }
 
-@media screen and (min-width:992px) and (max-width:1081px) {
-    .navbar-navv{
-        margin-left: 0px;
-    }
-    .navbar-navv span{
-        margin: 8px;
-    }
+.study-img .col h1 {
+    font-family: 'Grandstander', cursive;
+    color:brown;
+    font-weight: bold;
+
 }
 
-@media (max-width:991.98px) {
+
+.study-img .col h6 {
+    
+    font-weight: 300;
+margin-bottom: 30px;
+}
+.study-img .col a{
+    padding: 10px 20px;
+    border-radius: 35%;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+}
+.study-img .col img.bag{
+    width: 100px;
+    height: 150px;
+}.study-img{
+    position: relative;
+}
+.study-img .col img.add{
+    position: absolute;
+    top: 10px;
+    width: 150px;
+    height: 250px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, .2);
+    right: 0;
+}
+.study-img .col h4{
+    position: absolute;
+    top: 215px;
+    right:330px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.study-img .col span{
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    margin:30px;
+
+    font-size: 12px;
+}
+
+.study-img .col span.two{
+    position: absolute;
+    top: 200px;
+    right: 310px;
+    margin:30px;
+
+    font-size: 12px;
+}
+
+.study-img .col span.three{
+    position: absolute;
+    top: 200px;
+    right: 320px;
+    margin:30px;
+
+    font-size: 12px;
+}
+
+.study-img .col span.four{
+    position: absolute;
+    top: 200px;
+    right: 330px;
+    margin:30px;
+
+    font-size: 12px;
+}
+
+
+.study-img .col span.five{
+    position: absolute;
+    top: 200px;
+    right: 340px;
+    margin:30px;
+
+    font-size: 12px;
+}
+.study-img .col h3{
+    position: absolute;
+    top: 240px;
+    right: 340px;
+    color: orange;
+    font-size: 12px;
+    font-weight: 900;
+
+}
+.school-collection{
+    background-color: rgba(255,165,0,.1);
+}
+.school-collection .heading-sec .col-12 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Grandstander', cursive;
+
+}
+.school-collection .heading-sec .col-12 span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:50px;
+  color: blue;
+  margin-left: 300px;
+
+}
+
+.school-collection .heading-sec .col-12 span.start{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:50px;
+  color: red;
+  margin-right: 600px;
+
+}
+.collection-images .col{
+  background-color: white;
+  margin: 8px;
+}
+
+.collection-images .col img{
+  width: 200px;
+  height: 300px;
+}
+.price .col span{
+  font-size: 20px;
+  color: blue;
+}
+.price .col h6 {
+  color: orange;
+}
+
+@media screen and (max-width:575.98px) {
+  
+.school-collection .heading-sec .col-12 span{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:50px;
+  color: blue;
+  margin-left: 300px;
+
+}
+
+.school-collection .heading-sec .col-12 span.start{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:50px;
+  color: red;
+  margin-right: 600px;
+
+}
+    
+    .image-sec .col-4{
+        overflow: hidden;
+        margin-top: 50px;
+        background-color: #fcf7df;
+        height: 370px;
+        border-radius: 20px;
+        width: 100%;
+        padding: 50px;
+    }
+    
+.image-sec .row img{
+    height: 300px;
+    width:80%;
+    border-radius: 20px;
+}
+.navbar-nav{
+    margin-left: 0px;
+}
+}
+
+@media (max-width:1460px) {
+    
+.study-img .col h4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 12px;
+}
+.study-img .col span{
+    position: absolute;
+   bottom: 0;
+   left: 0;
+    margin:30px;
+
+    font-size: 0px;
+}
+
+.study-img .col span.two{
+    position: absolute;
+   bottom: 0;
+   left: 0;
+    margin:30px;
+
+    font-size: 0px;
+}
+
+.study-img .col span.three{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin:30px;
+
+    font-size: 0px;
+}
+
+.study-img .col span.four{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin:30px;
+
+    font-size: 0px;
+}
+
+
+.study-img .col span.five{
+    position: absolute;
+   bottom: 0;
+   left: 0;
+    margin:30px;
+
+    font-size: 0px;
+}
+.study-img .col h3{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    color: orange;
+    font-size: 0px;
+    font-weight: 900;
+
+}
+    .study-img{
+        position: unset;
+        overflow: hidden;
+    }
+    .study-img .col img.add{
+        position: unset;
+        top: 10px;
+        width: 150px;
+        height: 250px;
+        border-radius: 30px;
+        padding: 30px;
+        background-color: rgba(128, 128, 128, .2);
+        right: 0;
+    }
+    .study-img .col h4{
+        position: unset;
+        top: 215px;
+        right:330px;
+        font-weight: bold;
+        font-size: 12px;
+    }
     
 .top-navbar .col{
     display: flex;
@@ -168,5 +460,36 @@ body{
     border: 2px dotted red;
     color:purple;
 }
+
+.navbar-nav a.right-icons{
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
 }
+
+.image-sec h1{
+    font-family: 'Grandstander', cursive;
+    color: orange;
+    font-size: 16px;
+}
+.image-sec h3{
+    font-size: 8px;
+    font-weight: bold;
     
+}
+.image-sec h6{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.image-sec a{
+    font-size: 6px;
+    padding: 8px 18px;
+    border-radius: 20%;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+}
