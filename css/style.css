@@ -298,9 +298,159 @@ margin-bottom: 30px;
 .price .col h6 {
   color: orange;
 }
+.view-btn .col-2 a{
+    
+    display: flex;
+padding: 4px 20px;
+background-color: orange;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
 
+}
+.kids-img .col-6 img{
+    width: 100%;
+    height: 500px;
+    border: 2px dotted orange;
+    margin-bottom: 30px;
+}
+.kids-img .col-6{
+    position: relative;
+}
+.kids-img .col-6 h3{
+    position: absolute;
+    top:200px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 2px dotted rgb(160, 194, 241);
+    background-color: white;
+    color:rgb(69, 100, 202);
+    right: 250px;
+    
+    font-family: 'Grandstander', cursive;
+}
+.kids-img .col-6 img.heart{
+    position: absolute;
+    top: 180px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    right: 230px;
+}
+
+.inner-sec{
+    position: absolute;
+    top: 120px;
+    right: 170px;
+    padding: 50px;
+    border-radius:10px;
+    border: 2px dotted rgb(69, 100, 202);
+    background-color: white;
+}
+.kids-img .col-6 h1{
+    position: unset;
+    font-family: 'Grandstander', cursive;
+color: rgb(61, 12, 12);
+    top: 150px;
+    right: 240px;
+    font-size:40px;
+}
+.kids-img .col-6 h4{
+    margin-left: 100px;
+    padding: 10px;
+    font-family: 'Grandstander', cursive;
+    color:rgb(69, 100, 202);
+
+}
+
+.kids-img .col-6 h6{
+    margin-bottom: 20px;
+}
+
+.kids-img .col-6 a{
+    margin-left: 120px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(69, 100, 202);
+    padding: 12px ;
+    border-radius: 30px;
+}
+.news-sec .col-12 h1{
+    font-family: 'Grandstander', cursive;
+
+    display: flex;
+   justify-content: center;
+}
+.news-sec .col-12 span{
+    display: flex ;
+    color: purple;
+    justify-content: center;
+    font-size: 50px;
+}
+.news-sec .col img{
+    height: 300px;
+    width:70%;
+    border-radius: 10px;
+}
+.news-sec .col h6{
+    display: inline-flex;
+    
+    font-size: 12px;
+}.news-sec .col h2{
+    display: inline;
+    font-size: 20px;
+}
+.news-sec .col a {
+    text-decoration: none;
+    display: inline-flex;
+}
+.news-sec .col a span{
+    font-size: 18px;
+    display: inline-flex;
+    text-decoration: none;
+    color:rgb(69, 100, 202) ;
+}
+.news-sec .col h3{
+    font-family: 'Grandstander', cursive;
+    color: rgb(61, 12, 12);
+    font-weight: bold;
+}
 @media screen and (max-width:575.98px) {
-  
+    
+.news-sec .col h6{
+    display: inline-flex;
+    
+    font-size: 12px;
+}.news-sec .col h2{
+    display: inline;
+    font-size: 20px;
+}
+.news-sec .col a {
+    text-decoration: none;
+    display: inline-flex;
+}
+.news-sec .col a span{
+    font-size: 18px;
+    display: inline-flex;
+    text-decoration: none;
+    color:rgb(69, 100, 202) ;
+}
+.view-btn .col-2 a{
+    
+    display: flex;
+padding: 4px 20px;
+font-size: 6px;
+background-color: orange;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
 .school-collection .heading-sec .col-12 span{
   overflow: hidden;
   display: flex;
@@ -492,4 +642,43 @@ margin-bottom: 30px;
     font-weight: 400;
 }
 
+.inner-sec{
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    padding: 10px;
+    border-radius:10px;
+    border: 2px dotted rgb(69, 100, 202);
+    background-color: white;
+}
+.kids-img .col-6 h1{
+    font-family: 'Grandstander', cursive;
+color: rgb(61, 12, 12);
+   
+    font-size:20px;
+}
+.kids-img .col-6 h4{
+    margin-left: 0px;
+    font-size: 10px;
+    padding: 8px;
+    
+    font-family: 'Grandstander', cursive;
+    color:rgb(69, 100, 202);
+
+}
+
+.kids-img .col-6 h6{
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.kids-img .col-6 a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(69, 100, 202);
+    padding: 8px ;
+    font-size: 10px;
+    border-radius: 10px;
+}
 }
