@@ -430,13 +430,12 @@ color: rgb(61, 12, 12);
 }
 .image-slider .col h6{
     font-family: 'Grandstander', cursive;
-
-    display: inline;
+    
     margin: 0 2px;
     font-size: 12px;
 }
 .image-slider .col a{
-    display: inline;
+    margin: 0px 4px;
     
 }
 
@@ -448,6 +447,9 @@ color: rgb(61, 12, 12);
 }
 .image-slider .col{
     position: relative;
+    display: flex;
+    align-items:center;
+    
 }
 .image-slider .col h5{
     font-family: 'Grandstander', cursive;
@@ -460,14 +462,6 @@ color: rgb(61, 12, 12);
     font-size: 120px;
     color: white;
     border-radius: 15px;
-}
-.image-slider .col h4{
-    position: absolute;
-    left: 0;
-    bottom: -50px;
-    color:black;
-    
-    font-size: 70px;
 }
 .footer .second-last-footer{
     background-color: rgba(255,165,0,.1);
@@ -564,6 +558,24 @@ color: rgb(61, 12, 12);
     width: 40px;
     margin: 14px 15px;
     height: 40px;
+}
+.item{
+    width: 100%;
+}
+.owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-dots {
+    left: 50%;
+    top: 83%;
+    position: absolute;
+}
+.owl-theme .owl-dots .owl-dot span {
+    border: 1px solid rgb(69, 100, 202);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:rgb(69, 100, 202);
 }
 @media screen and (max-width:575.98px) {
     
