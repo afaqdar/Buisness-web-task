@@ -101,7 +101,7 @@ body{
 .image-sec a{
     font-size: 10px;
     padding: 15px 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     background-color: orange;
     text-decoration: none;
     color: white;
@@ -170,7 +170,7 @@ margin-bottom: 30px;
 }
 .study-img .col a{
     padding: 10px 20px;
-    border-radius: 35%;
+    border-radius: 20px;
     background-color: orange;
     text-decoration: none;
     color: white;
@@ -306,7 +306,8 @@ background-color: orange;
     justify-content: center;
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 4px;
+    font-size: 5px;
     border-radius: 20px;
     margin-bottom: 50px;
 
@@ -838,7 +839,7 @@ background-color: orange;
 .image-sec a{
     font-size: 6px;
     padding: 8px 18px;
-    border-radius: 20%;
+    border-radius: 20px,
     background-color: orange;
     text-decoration: none;
     color: white;
