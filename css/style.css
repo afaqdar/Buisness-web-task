@@ -188,7 +188,7 @@ margin-bottom: 30px;
     height: 250px;
     border-radius: 30px;
     padding: 30px;
-    background-color: rgba(128, 128, 128, .2);
+    background-color: rgba(236, 236, 236 ,.2);
     right: 0;
 }
 .study-img .col h4{
@@ -571,283 +571,230 @@ color: rgb(61, 12, 12);
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background:rgb(69, 100, 202);
 }
-
-@media screen and (max-width:1399.98px) {
-    
-.study-img .col h4{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-weight: bold;
-    font-size: 12px;
-}
-.study-img .col span{
-    position: absolute;
-   bottom: 0;
-   left: 0;
-    margin:30px;
-
-    font-size: 0px;
-}
-
-.study-img .col span.two{
-    position: absolute;
-   bottom: 0;
-   left: 0;
-    margin:30px;
-
-    font-size: 0px;
-}
-
-.study-img .col span.three{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin:30px;
-
-    font-size: 0px;
-}
-
-.study-img .col span.four{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin:30px;
-
-    font-size: 0px;
-}
-
-
-.study-img .col span.five{
-    position: absolute;
-   bottom: 0;
-   left: 0;
-    margin:30px;
-
-    font-size: 0px;
-}
-.study-img .col h3{
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    color: orange;
-    font-size: 0px;
-    font-weight: 900;
-
-}
-    .study-img{
-        position: unset;
-        overflow: hidden;
+@media (max-width:1399.98px){
+    .image-slider .col h6 {
+        font-family: 'Grandstander', cursive;
+        margin: 0 2px;
+        font-size: 11px;
     }
-    .study-img .col img.add{
-        position: unset;
-        top: 10px;
-        width: 150px;
-        height: 250px;
+    .image-slider .col h5 {
+        font-family: 'Grandstander', cursive;
+        position: absolute;
+        top: 80px;
+        left: 192px;
+        font-size: 13px;
+    }
+    .top-navbar .col h5 {
+        margin-top: 6px;
+        font-size: 12px;
+        margin-left: 150px;
+    }
+    
+    .navbar-nav a {
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+.navbar-nav a.right-icons span{
+    margin-left: 12px;
+    font-size: 10px;
+}
+    
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        margin-left: 50px;
+    }
+        
+    .navbar img {
+        height: 60px;
+        width: 60px;
+        margin-left: 250px;
+    }
+    
+    .navbar h4 {
+        font-size: 10px;
+        border-radius: 50%;
+        padding: 15px;
+        border: 2px dotted red;
+        color: purple;
+    }
+    
+    .second-last-footer ul.second-ul {
+        position: absolute;
+        top: 170px;
+        left: 530px;
+        list-style-type: none;
+    }
+    .second-last-footer h3.second {
+        position: absolute;
+        top: 150px;
+        left: 530px;
+        font-size: 15px;
+        color: orange;
+        font-family: 'Grandstander', cursive;
+    }
+    .second-last-footer ul {
+        position: absolute;
+        top: 170px;
+        left:650px;
+        list-style-type: none;
+    }
+    .second-last-footer h3.contact {
+        position: absolute;
+        top: 150px;
+        left: 690px;
+        font-size: 15px;
+        color: orange;
+        font-family: 'Grandstander', cursive;
+    }
+    .image-sec .col-4 img {
+        height: 200px;
+    }
+    .study-img .col img {
+        margin-right: 176px;
+        display: inline;
+    }
+    
+    .study-img .col img.add {
+        position: absolute;
+        top: 17px;
+        width: 182px;
+        height: 219px;
         border-radius: 30px;
         padding: 30px;
         background-color: rgba(128, 128, 128, .2);
-        right: 0;
+        right: -92px;
     }
-    .study-img .col h4{
-        position: unset;
-        top: 215px;
-        right:330px;
+    .study-img .col img.add {
+        position: absolute;
+        top: 17px;
+        width: 174px;
+        height: 231px;
+        border-radius: 30px;
+        padding: 50px;
+        background-color: rgba(128, 128, 128, .2);
+        right: -92px;
+    }
+    .study-img .col h4 {
+        position: absolute;
+        top: 198px;
+        right: 128px;
         font-weight: bold;
         font-size: 12px;
     }
+    .study-img .col span.five {
+        position: absolute;
+        top: 184px;
+        right: 152px;
+        margin: 30px;
+        font-size: 12px;
+    }
+    .study-img .col span {
+        position: absolute;
+        top: 184px;
+        right: 140px;
+        margin: 30px;
+        font-size: 12px;
+    }
+    .study-img .col span.four {
+        position: absolute;
+        top: 184px;
+        right: 130px;
+        margin: 30px;
+        font-size: 12px;
+    }
+    .study-img .col span.three {
+        position: absolute;
+        top: 184px;
+        right: 119px;
+        margin: 30px;
+        font-size: 12px;
+    }
+    .study-img .col span.two {
+        position: absolute;
+        top: 184px;
+        right: 108px;
+        margin: 30px;
+        font-size: 12px;
+    }
+    .study-img .col h3 {
+        position: absolute;
+        top: 229px;
+        right: 139px;
+        color: orange;
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .inner-sec {
+        position: absolute;
+        top: 120px;
+        right: 121px;
+        padding: 40px;
+        border-radius: 10px;
+        border: 2px dotted rgb(69, 100, 202);
+        background-color: white;
+    }
+    .kids-img .col-6 a {
+        font-size: 14px;
+        margin-left: 90px;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(69, 100, 202);
+        padding: 9px;
+        border-radius: 30px;
+    }
+    .kids-img .col-6 h1 {
+        position: unset;
+        font-family: 'Grandstander', cursive;
+        color: rgb(61, 12, 12);
+        top: 150px;
+        right: 240px;
+        font-size: 32px;
+    }
+    .kids-img .col-6 h4 {
+        margin-left: 82px;
+        padding: 10px;
+        font-family: 'Grandstander', cursive;
+        color: rgb(69, 100, 202);
+    }
+    .h6, h6 {
+        font-size: 12px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .offset-4 {
+        margin-left: 26.333333%;
+    }
+    .news-sec .col h3 {
+        font-family: 'Grandstander', cursive;
+        color: rgb(61, 12, 12);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: unset;
+        
+        margin-left: 50px;
+    }
     
-.top-navbar .col{
-    display: flex;
-    align-items: center;
-    height: 24px;
-}
+    .navbar h4 {
+        font-size: 10px;
+        border-radius: 50%;
+        padding: 20px;
+        border: 2px dotted red;
+        color: purple;
+    }
     
-.top-navbar .col h5{
-    margin-top: 6px;
-    font-size: 8px;
-    margin-left:0px;
-
-}
-.top-navbar .col a{
-    text-decoration: none;
-    margin-left: 10px;
-    font-size: 8px;
-    color: orange;
-    font-weight: 700;
-}
-
-.navbar img{
-    height: 80px;
-    width: 80px;
-    margin-left: 0px;
-}
-.navbar h4{
-    font-size: 10px;
-    border-radius: 50%;
-    padding: 15px;
-    border: 2px dotted red;
-    color:purple;
-}
-
-.navbar-nav a.right-icons{
-    text-decoration: none;
-    color: black;
-    margin-left: 0px;
-}
-
-.image-sec h1{
-    font-family: 'Grandstander', cursive;
-    color: orange;
-    font-size: 16px;
-}
-.image-sec h3{
-    font-size: 8px;
-    font-weight: bold;
-    
-}
-.image-sec h6{
-    margin-bottom: 20px;
-    font-size: 14px;
-    font-weight: 100;
-}
-.image-sec a{
-    font-size: 6px;
-    padding: 8px 18px;
-    border-radius: 20px,
-    background-color: orange;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-}
-
-.inner-sec{
-    position: absolute;
-    top: 120px;
-    right: 50px;
-    padding: 10px;
-    border-radius:10px;
-    border: 2px dotted rgb(69, 100, 202);
-    background-color: white;
-}
-.kids-img .col-6 h1{
-    font-family: 'Grandstander', cursive;
-color: rgb(61, 12, 12);
-   
-    font-size:20px;
-}
-.kids-img .col-6 h4{
-    margin-left: 0px;
-    font-size: 10px;
-    padding: 8px;
-    
-    font-family: 'Grandstander', cursive;
-    color:rgb(69, 100, 202);
-
-}
-
-.kids-img .col-6 h6{
-    margin-bottom: 20px;
-    font-size: 10px;
-}
-
-.kids-img .col-6 a{
-    margin-left: 10px;
-    text-decoration: none;
-    color: white;
-    background-color:rgb(69, 100, 202);
-    padding: 8px ;
-    font-size: 10px;
-    border-radius: 10px;
-}
-
-.image-slider .col h6{
-    font-family: 'Grandstander', cursive;
-
-    display: inline;
-    margin: 0 2px;
-    font-size: 6px;
-}
-.image-slider .col a{
-    display: inline;
-    
-}
-
-.image-slider .col a span{
-    display: inline-flex;
-    text-decoration: none;
-    font-size: 10px;
-    color:(69, 100, 202) ;
-}
-.image-slider .col{
-    position: relative;
-    overflow: hidden;
-}
-.image-slider .col h5{
-    font-family: 'Grandstander', cursive;
-font-size: 10px;
-    position: absolute;
-    top: 80px;
-    left: 180px;
-}
-
-.second-last-footer{
-    position: relative;
-    overflow: hidden;
-}
-
-.second-last-footer h3.contact{
-    position: absolute;
-    top: 150px;
-    display: none;
-    left: 500px;
-    font-size: 15px;
-    color: orange;
-    font-family: 'Grandstander', cursive;
-
-
-}
-.second-last-footer ul{
-    
-    position: unset;
-    display: none;
-    top: 170px;
-    left: 0px;
-    margin:20px 0;
-    list-style-type: none;
-}
-.second-last-footer span{
-    display: inline;
-    position: unset;
-    left: 2px;
-    color: blue;
-    font-size: 20px;
-}
-
-.second-last-footer h3.second{
-    position: unset;
-    top: 150px;
-    left:500px;
-    display: none;
-    font-size: 15px;
-    color: orange;
-    font-family: 'Grandstander', cursive;
-
-
-}
-
-.second-last-footer ul.second-ul{
-    
-    position: unset;
-    top: 170px;
-    left: 390px;
-    list-style-type: none;
-}
-}
-
-
-
-@media (min-width:992px) and (max-width:1199.98px) {
+    .navbar img {
+        height: 50px;
+        width: 50px;
+        margin-left: 100px;
+    }
     .second-last-footer ul.second-ul {
         position: absolute;
         top: 170px;
@@ -876,142 +823,793 @@ font-size: 10px;
         color: orange;
         font-family: 'Grandstander', cursive;
     }
-}
-@media screen and (max-width:575.98px) {
+    .image-sec .col-4 img {
+        height: 175px;
+    }
+    .image-sec a {
+        font-size: 10px;
+        padding: 8px 20px;
+        border-radius: 20px;
+        background-color: orange;
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+    }
+    .parent-add{
+        display: none;
+    }
+    .kids-img .col-6 a {
+        font-size: 12px;
+        margin-left: 84px;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(69, 100, 202);
+        padding: 9px;
+        border-radius: 8px;
+    }
+    .inner-sec {
+        position: absolute;
+        top: 120px;
+        right: 68px;
+        padding: 30px;
+        border-radius: 10px;
+        border: 2px dotted rgb(69, 100, 202);
+        background-color: white;
+    }
+    .kids-img .col-6 h1 {
+        position: unset;
+        font-family: 'Grandstander', cursive;
+        color: rgb(61, 12, 12);
+        top: 150px;
+        right: 240px;
+        font-size: 28px;
+    }
+    .kids-img .col-6 h4 {
+        margin-left: 69px;
+        padding: 10px;
+        font-family: 'Grandstander', cursive;
+        color: rgb(69, 100, 202);
+    }
+    .h6, h6 {
+        font-size: 11px;
+    }
     
-.image-slider .col img{
-    width: 50px;
-    height: 50px;
+.study-img .col img.first {
+    width: 100%;
+    height: 232px;
+}
+
+.image-slider .col h6 {
+    font-family: 'Grandstander', cursive;
+    margin: 0 2px;
+    font-size: 8px;
+}
+.image-slider .col h5 {
+    font-family: 'Grandstander', cursive;
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    font-size: 11px;
+}
+
+}
+@media(min-width:768px)and (max-width:991.98px) {
+.image-slider .col h5 {
+    font-family: 'Grandstander', cursive;
+    position: absolute;
+    top: 80px;
+    left: 192px;
+    font-size: 14px;
+}
+.image-slider .col h6 {
+    font-family: 'Grandstander', cursive;
+    margin: 0 2px;
+    font-size: 11px;
+}
+.image-slider .col img {
+    margin-top: 8px;
+    width: 130px;
+    height: 130px;
     border-radius: 20px;
 }
+    .offset-4 {
+        margin-left: 25.333333%;
+    }
+    .news-sec .col h3 {
+        font-family: 'Grandstander', cursive;
+        color: rgb(61, 12, 12);
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .news-sec .col h6 {
+        display: inline-flex;
+        font-size: 10px;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin-left: 0px;
+    }
+    .navbar img {
+        height: 60px;
+        width: 60px;
+        margin-left: 0px;
+    }
+    .top-navbar .col h5 {
+        margin-top: 6px;
+        font-size: 8px;
+        margin-left: 150px;
+    }
+    .top-navbar .col a {
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 8px;
+        color: orange;
+        font-weight: 700;
+    }
+    .top-navbar .col span {
+        padding: 2px;
+        border-radius: 50%;
+        font-size: 10px;
+        margin-left: 4px;
+        color: white;
+        background-color: orange;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: grid;
+        margin-left: 0px;
+    }
+    .second-last-footer ul.second-ul {
+        position: absolute;
+        top: 170px;
+        left: 350px;
+        list-style-type: none;
+    }
+    .second-last-footer h3.second {
+        position: absolute;
+        top: 150px;
+        left: 350px;
+        font-size: 15px;
+        color: orange;
+        font-family: 'Grandstander', cursive;
+    }
+    .second-last-footer ul {
+        position: absolute;
+        top: 170px;
+        left:485px;
+        list-style-type: none;
+    }
+    .second-last-footer h3.contact {
+        position: absolute;
+        top: 150px;
+        left: 500px;
+        font-size: 15px;
+        color: orange;
+        font-family: 'Grandstander', cursive;
+    }
+
+    .image-sec .col-4 img {
+        height: 235px;
+    }
     
-.last-footer .col ul{
-    list-style-type: none;    
-    display: block;
-    align-items: center;
-}
-.news-sec .col h6{
-    display: inline-flex;
-    
-    font-size: 12px;
-}.news-sec .col h2{
-    display: inline;
+    .image-sec a {
+        font-size: 10px;
+        padding: 8px 16px;
+        border-radius: 20px;
+        background-color: orange;
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+    }
+    .image-sec h1 {
+    font-family: 'Grandstander', cursive;
+    color: orange;
     font-size: 20px;
 }
-.news-sec .col a {
-    text-decoration: none;
-    display: inline-flex;
+
+.parent-add{
+    display: none;
 }
-.news-sec .col a span{
-    font-size: 18px;
-    display: inline-flex;
-    text-decoration: none;
-    color:rgb(69, 100, 202) ;
+
+.h5, h5 {
+    font-size: 14px;
 }
-.view-btn .col-2 a{
-    
+.price .col span {
+    font-size: 12px;
+    color: blue;
+}
+.price .col h6 {
+    color: orange;
+    font-size: 15px;
+}
+.view-btn .col-2 a {
     display: flex;
-padding: 4px 20px;
-font-size: 6px;
-background-color: orange;
+    padding: 4px 20px;
+    background-color: orange;
     justify-content: center;
     text-decoration: none;
     color: white;
     padding: 10px;
+    font-size: 10px;
     border-radius: 20px;
-
-}
-.school-collection .heading-sec .col-12 span{
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size:50px;
-  color: blue;
-  margin-left: 300px;
-
-}
-
-.school-collection .heading-sec .col-12 span.start{
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size:50px;
-  color: red;
-  margin-right: 600px;
-
-}
     
-    .image-sec .col-4{
-        overflow: hidden;
-        margin-top: 50px;
-        background-color: #fcf7df;
-        height: 370px;
-        border-radius: 20px;
-        width: 100%;
-        padding: 50px;
-    }
-    
-.image-sec .row img{
-    height: 300px;
-    width:80%;
-    border-radius: 20px;
-}
-.navbar-nav{
-    margin-left: 0px;
-}
-
-.view-btn .col-2 a{
-    
-    display: flex;
-padding: 4px 20px;
-background-color: orange;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    padding: 4px;
-    font-size: 8px;
-    border-radius: 20px;
-    margin-bottom: 50px;
 
 }
-.footer{
-    overflow: hidden;
+.inner-sec {
+    position: absolute;
+    top: 120px;
+    right: 38px;
+    padding: 29px;
+    border-radius: 10px;
+    border: 2px dotted rgb(69, 100, 202);
+    background-color: white;
 }
-.news-sec{
-    overflow: hidden;
-}
-.top-navbar{
-    overflow: hidden;
-}
-.navbar{
-    overflow: hidden;
-}
-.image-sec {
-    overflow: hidden;
-}
-.news-sec .col h3 {
+.kids-img .col-6 h1 {
+    position: unset;
     font-family: 'Grandstander', cursive;
     color: rgb(61, 12, 12);
-    font-weight: bold;
+    top: 150px;
+    right: 240px;
+    font-size: 24px;
+}
+
+.kids-img .col-6 h4 {
+    margin-left: 52px;
+    padding: 10px;
+    font-family: 'Grandstander', cursive;
+    color: rgb(69, 100, 202);
+}
+.h6, h6 {
     font-size: 10px;
+
+}
+.kids-img .col-6 a {
+    font-size: 11px;
+    margin-left: 86px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(69, 100, 202);
+    padding: 8px;
+    border-radius: 30px;
+}
+.study-img .col img.first {
+    width: 100%;
+    height: 228px;
+}
+.kids-img .col-6 h3 {
+    position: absolute;
+    top: 200px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 2px dotted rgb(160, 194, 241);
+    background-color: white;
+    color: rgb(69, 100, 202);
+    right: 169px;
+    font-family: 'Grandstander', cursive;
+}
+.collection-images .col img {
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
 }
 .collection-images{
     overflow: hidden;
 }
-.h5, h5 {
-    overflow: hidden;
-    font-size: 1.25rem;
+
+
 }
-.items{
+@media(min-width:576px)and (max-width:767.98px) {
+    .collection-images{
+        overflow: hidden;
+    }
+    .image-slider .col h6 {
+        font-family: 'Grandstander', cursive;
+        margin: 0 2px;
+        font-size: 9px;
+    }
+    .image-slider .col h5 {
+        font-family: 'Grandstander', cursive;
+        position: absolute;
+        top: 80px;
+        left: 182px;
+        font-size: 13px;
+    }
+    .study-img .col img.first {
+        width: 100%;
+        height: 214px;
+    }
+    .parent-add{
+        display: none;
+    }
+    .navbar img {
+        height: 60px;
+        width: 60px;
+        margin-left: 0px;
+    }
+    
+    .top-navbar .col h5 {
+        margin-top: 6px;
+        font-size: 8px;
+        margin-left: 70px;
+    }
+    .top-navbar .col a {
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 8px;
+        color: orange;
+        font-weight: 700;
+    }
+    .top-navbar .col span {
+        padding: 2px;
+        border-radius: 50%;
+        font-size: 10px;
+        margin-left: 4px;
+        color: white;
+        background-color: orange;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: grid;
+        margin-left: 0px;
+    }
+    .second-last-footer ul.second-ul {
+        position: absolute;
+        top: 170px;
+        left: 320px;
+        list-style-type: none;
+    }
+    .second-last-footer h3.second {
+        position: absolute;
+        top: 150px;
+        left: 320px;
+        font-size: 15px;
+        color: orange;
+        font-family: 'Grandstander', cursive;
+    }
+    .second-last-footer ul {
+        position: absolute;
+        top: 170px;
+        left:430px;
+        list-style-type: none;
+    }
+    .second-last-footer h3.contact {
+        position: absolute;
+        top: 150px;
+        left: 450px;
+        font-size: 15px;
+        color: orange;
+        font-family: 'Grandstander', cursive;
+    }
+    
+    .image-sec .col-4 img {
+        height: 165px;
+    }
+    .image-sec h1 {
+        font-family: 'Grandstander', cursive;
+        color: orange;
+        font-size: 20px;
+    }
+    .image-sec h3 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .image-sec h6 {
+        font-size: 14px;
+        margin-bottom: 20px;
+        font-weight: 100;
+    }
+    .image-sec a {
+        font-size: 10px;
+        padding: 8px 12px;
+        border-radius: 20px;
+        background-color: orange;
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+    }
+    .h5, h5 {
+        font-size: 15px;
+    }
+    .price .col span {
+        font-size: 16px;
+        color: blue;
+    }
+    .price .col h6 {
+        color: orange;
+        font-size: 12px;
+    }
+    .view-btn .col-2 a {
+        display: flex;
+        padding: 4px 20px;
+        background-color: orange;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        padding: 6px 12px;
+        font-size: 7px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    .inner-sec {
+        position: absolute;
+        top: 120px;
+        right: 41px;
+        padding: 19px;
+        border-radius: 10px;
+        border: 2px dotted rgb(69, 100, 202);
+        background-color: white;
+    }
+    .kids-img .col-6 h1 {
+        position: unset;
+        font-family: 'Grandstander', cursive;
+        color: rgb(61, 12, 12);
+        top: 150px;
+        right: 240px;
+        font-size: 20px;
+    }
+    .kids-img .col-6 h4 {
+        margin-left: 24px;
+        padding: 10px;
+        font-family: 'Grandstander', cursive;
+        color: rgb(69, 100, 202);
+    }
+    .h4, h4 {
+        font-size: 19px;
+    }
+    .h6, h6 {
+        font-size: 7px;
+    }
+    .kids-img .col-6 a {
+        font-size: 8px;
+        margin-left: 57px;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(69, 100, 202);
+        padding: 9px;
+        border-radius: 30px;
+    }
+    .kids-img .col-6 h3 {
+        position: absolute;
+        top: 200px;
+        padding: 15px 25px;
+        border-radius: 20px;
+        border: 2px dotted rgb(160, 194, 241);
+        background-color: white;
+        color: rgb(69, 100, 202);
+        right: 103px;
+        font-family: 'Grandstander', cursive;
+    }
+    .news-sec .col h6 {
+        display: inline-flex;
+        font-size: 10px;
+    }
+    .news-sec .col h3 {
+        font-family: 'Grandstander', cursive;
+        color: rgb(61, 12, 12);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .offset-4 {
+        margin-left: 23.333333%;
+    }
+    
+
+}
+
+
+@media (max-width:575.98px){
+    .last-footer .col ul {
+        list-style-type: none;
+        display: block;
+        align-items: center;
+    }
+    .collection-images{
+        overflow: hidden;
+    }
+    .collection-images .col img {
+        width: 200px;
+        height: 300px;
+        margin-left: 90px;
+    }
+    .offset-1 {
+        margin-left: -15.666667%;
+    }
+    .image-slider .col h6 {
+        font-family: 'Grandstander', cursive;
+        margin: 0 2px;
+        font-size: 8px;
+    }
+    .image-slider .col h5 {
+        font-family: 'Grandstander', cursive;
+        position: absolute;
+        top: 80px;
+        left: 116px;
+        font-size: 8px;
+    }
+    .image-slider .col img {
+        width: 89px;
+        height: 105px;
+        border-radius: 20px;
+        margin-top: 12px;
+    }
+    .news-sec .col h3 {
+        font-family: 'Grandstander', cursive;
+        color: rgb(61, 12, 12);
+        font-weight: bold;
+        font-size: 7px;
+    }
+    .offset-4 {
+        margin-left: 24.333333%;
+    }
+    .news-sec .col h6 {
+        display: inline-flex;
+        font-size: 6px;
+    }    
+    .kids-img .col-6 img.heart {
+        position: absolute;
+        top: 180px;
+        width: 40px;
+        height: 40px;
+        border: none;
+        right: 90px;
+    }
+    .kids-img .col-6 h3 {
+        position: absolute;
+        top: 200px;
+        padding: 15px 25px;
+        border-radius: 20px;
+        border: 2px dotted rgb(160, 194, 241);
+        background-color: white;
+        color: rgb(69, 100, 202);
+        font-size: 12px;
+        right: 13px;
+        font-family: 'Grandstander', cursive;
+    }
+    
+    .navbar img {
+        height: 60px;
+        width: 60px;
+        margin-left: 0px;
+    }
+    
+    
+    .top-navbar .col h5 {
+        margin-top: 6px;
+        font-size: 5px;
+        margin-left: 10px;
+    }
+    .top-navbar .col a {
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 5px;
+        color: orange;
+        font-weight: 700;
+    }
+    .top-navbar .col span {
+        padding: 2px;
+        border-radius: 50%;
+        font-size: 6px;
+        margin-left: 4px;
+        color: white;
+        background-color: orange;
+    }
+  
+    .navbar-nav {
+        margin-left: 0px;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: grid;
+        margin-left: 0px;
+    }
+    
+.second-last-footer ul.second-ul {
+    position: unset;
+    display: none;
+    margin-top: 20px;
+    top: 170px;
+    left: 320px;
+    list-style-type: none;
+}
+.second-last-footer h3.second {
+    display: none;
+    position: unset;
+    top: 150px;
+    left: 320px;
+    font-size: 15px;
+    color: orange;
+    font-family: 'Grandstander', cursive;
+}
+.second-last-footer ul {
+    position: unset;
+    margin-top: 19px;
+    top: 170px;
+    left:430px;
+    list-style-type: none;
+}
+.second-last-footer h3.contact {
+    position: unset;
+    top: 150px;
+    left: 0px;
+    display: none;
+    font-size: 15px;
+    color: orange;
+    font-family: 'Grandstander', cursive;
+}
+.second-last-footer a {
+    margin-bottom: 8px;
+    font-size: 8px;
+    margin-top: 12px;
+    display: unset;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.second-last-footer h3 {
+    margin-top: 12px;
+    font-size: 12px;
+    color: orange;
+    font-family: 'Grandstander', cursive;
+}
+.footer{
     overflow: hidden;
 }
-.school-collection .heading-sec .col-12 h1 {
+
+.image-sec  {
+    overflow: hidden;
+}
+.image-sec h1 {
+    font-size: 18px;
+    font-family: 'Grandstander', cursive;
+    color: orange;
+}
+.image-sec h3 {
+    font-size: 8px;
+    font-weight: bold;
+}
+.image-sec h6 {
+    font-size: 8px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.offset-1 {
+    margin-left: 1.333333%;
+}
+.second-last-footer a {
+    margin-bottom: 8px;
+    font-size: 8px;
+    margin-top: 12px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.image-sec a {
+    font-size: 4px;
+    padding: 7px 24px;
+    border-radius: 20px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.image-sec .col-4 img {
+    height: 246px;
+}
+
+.parent-add{
+    display: none;
+}
+.study-img .col img {
+    width: 100%;
+    height: 100%;
+    margin-right: 176px;
+    display: unset;
+}
+.study-img .col a {
+    font-size: 12px;
+    padding: 2px 12px;
+    border-radius: 20px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+}
+.school-collection .heading-sec .col-12 span.start {
     display: flex;
-    overflow: hidden;
     align-items: center;
     justify-content: center;
+    font-size: 50px;
+    color: red;
+    margin-right: 77px;
+}
+.school-collection .heading-sec .col-12 span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: blue;
+    margin-left: 50px;
+}
+.collection-images .col {
+    background-color: white;
+    margin: 6px;
+}
+
+.h5, h5 {
+    font-size: 8px;
+}
+.price .col span {
+    font-size: 8px;
+    color: blue;
+}
+.price .col h6 {
+    color: orange;
+    font-size: 8px;
+}
+.view-btn .col-2 a {
+    display: flex;
+    padding: 4px 20px;
+    background-color: orange;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    font-size: 3px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.kids-img .col-6 h1 {
+    position: unset;
     font-family: 'Grandstander', cursive;
+    color: rgb(61, 12, 12);
+    top: 150px;
+    right: 240px;
+    font-size: 10px;
+}
+
+.inner-sec {
+    position: absolute;
+    top: 120px;
+    right: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dotted rgb(69, 100, 202);
+    background-color: white;
+}
+.h4, h4 {
+    font-size: calc(1.275rem + -2.7vw);
+}
+.kids-img .col-6 h4 {
+    margin-left: 15px;
+    padding: 10px;
+    font-family: 'Grandstander', cursive;
+    color: rgb(69, 100, 202);
+}
+.h6, h6 {
+    font-size: 4px;
+}
+.kids-img .col-6 a {
+    font-size: 6px;
+    margin-left: 17px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(69, 100, 202);
+    padding: 7px;
+    border-radius: 22px;
+}
+.study-img .col img.first {
+    width: 100%;
+    height: 255px;
 }
 }
