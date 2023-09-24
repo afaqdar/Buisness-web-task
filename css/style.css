@@ -763,6 +763,15 @@ color: rgb(61, 12, 12);
     .h6, h6 {
         font-size: 12px;
     }
+    .header{
+        overflow: hidden;
+    }
+    .main-content{
+        overflow: hidden;
+    }
+    .footer{
+        overflow: hidden;
+    }
 }
 @media (min-width:992px) and (max-width:1199.98px){
     .offset-4 {
@@ -890,6 +899,15 @@ color: rgb(61, 12, 12);
     top: 80px;
     left: 180px;
     font-size: 11px;
+}
+.header{
+    overflow: hidden;
+}
+.main-content{
+    overflow: hidden;
+}
+.footer{
+    overflow: hidden;
 }
 
 }
@@ -1101,6 +1119,15 @@ color: rgb(61, 12, 12);
 .collection-images{
     overflow: hidden;
 }
+.header{
+    overflow: hidden;
+}
+.main-content{
+    overflow: hidden;
+}
+.footer{
+    overflow: hidden;
+}
 
 
 }
@@ -1302,12 +1329,43 @@ color: rgb(61, 12, 12);
     .offset-4 {
         margin-left: 23.333333%;
     }
-    
-
+   body{
+    overflow: hidden;
+   }
+.study-img .col img {
+    overflow: hidden;
+    margin-right: unset;
+    display: block;
+} 
+.header{
+    overflow: hidden;
+}
+.main-content{
+    overflow: hidden;
+}
+.footer{
+    overflow: hidden;
+}
 }
 
 
+
 @media (max-width:575.98px){
+    .header{
+        overflow: hidden;
+    }
+    .main-content{
+        overflow: hidden;
+    }
+    .footer{
+        overflow: hidden;
+    }
+     
+.study-img {
+    overflow: hidden;
+    margin-right: unset;
+    display: block;
+} 
     .last-footer .col ul {
         list-style-type: none;
         display: block;
@@ -1510,6 +1568,13 @@ color: rgb(61, 12, 12);
 
 .parent-add{
     display: none;
+}
+.school-collection .heading-sec .col-12 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Grandstander', cursive;
+    overflow: hidden;
 }
 .study-img .col img {
     width: 100%;
